@@ -1,0 +1,1 @@
+from dotmap import DotMap as Map

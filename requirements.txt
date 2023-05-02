@@ -1,1 +1,3 @@
 peewee
+pyyaml
+dotmap

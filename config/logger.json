@@ -1,0 +1,93 @@
+{
+    "logger": {
+        "path": "logs/",
+        "stdout": true,
+        "levels": {
+            "system": {
+                "format": "[{timestamp}]: {message} [*]",
+                "color": {
+                    "foreground": [
+                        66,
+                        164,
+                        245
+                    ],
+                    "background": null,
+                    "decorations": {
+                        "bold": true,
+                        "italic": false,
+                        "underline": false,
+                        "strikethrough": false
+                    }
+                }
+            },
+            "debug": {
+                "format": "[{timestamp}][{tag}]: {message}",
+                "color": {
+                    "foreground": [
+                        66,
+                        245,
+                        96
+                    ],
+                    "background": null,
+                    "decorations": {
+                        "bold": false,
+                        "italic": false,
+                        "underline": false,
+                        "strikethrough": false
+                    }
+                }
+            },
+            "info": {
+                "format": "[{timestamp}][{tag}]: {message}",
+                "color": {
+                    "foreground": [
+                        66,
+                        164,
+                        245
+                    ],
+                    "background": null,
+                    "decorations": {
+                        "bold": false,
+                        "italic": false,
+                        "underline": false,
+                        "strikethrough": false
+                    }
+                }
+            },
+            "warn": {
+                "format": "[{timestamp}][{tag}][-]: {message}",
+                "color": {
+                    "foreground": [
+                        66,
+                        164,
+                        245
+                    ],
+                    "background": null,
+                    "decorations": {
+                        "bold": false,
+                        "italic": false,
+                        "underline": false,
+                        "strikethrough": false
+                    }
+                }
+            },
+            "error": {
+                "format": "[{timestamp}][{tag}][?]: {message}",
+                "color": {
+                    "foreground": [
+                        255,
+                        0,
+                        0
+                    ],
+                    "background": null,
+                    "decorations": {
+                        "bold": false,
+                        "italic": false,
+                        "underline": false,
+                        "strikethrough": false
+                    }
+                }
+            }
+        }
+    }
+}
